@@ -317,3 +317,10 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
+@media (max-width: 400px) {
+  .logo > img {
+    width: 100px;
+    height: auto;
+  }
+}
